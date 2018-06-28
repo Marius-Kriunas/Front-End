@@ -1,0 +1,23 @@
+body {
+Font-family: "Roboto", sans-serif;
+}
+.navigation {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation li {
+  display: inline;
+  padding: 10px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+}
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+}

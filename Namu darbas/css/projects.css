@@ -1,0 +1,101 @@
+body {
+    margin: 100px 10px;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;}
+
+
+
+main {
+    padding: 20px;}
+
+
+    ul {float: right;
+    }
+    #navigation {
+      padding: 0px;}
+     #navigation li {
+      display: inline-block;}
+      #navigation a {
+        color:purple;
+        text-decoration: none;
+        padding: 2px 4px;}
+
+        main {
+            padding: 20px;}
+
+            img.center {
+                display: block;
+                margin-left: auto;
+                margin-right: 25%;
+                width: 12%;
+                border-radius: 50%;
+                text-align: center;
+            }
+
+            section.intro {display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            text-align: center;}
+
+
+            p {color: grey;
+            font-size: 18px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;}
+
+            h1 {display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+            font-size: 24px;}
+            i {
+            display:inline-block;
+            text-align:center;
+            padding: 10px 15px;
+            margin: 6px 8px;
+            }
+
+            a {
+              color:purple;
+              text-decoration: none;
+              padding: 10px 15px;
+              font-size: 20px;
+              display: inline-block;
+              vertical-align: bottom;
+              margin-left: auto;
+              margin-right: auto;}
+              section.articles {
+              display: flex;
+              border-top: 1px solid lightgrey;
+              }
+              section.articles .text {
+                width: 20%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;}
+
+              section.articles .data {
+                  width: 20%;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                  text-align: center;}
+                  footer {
+                      color: grey;
+                      padding: 50px;
+                      text-align: center;
+                  }

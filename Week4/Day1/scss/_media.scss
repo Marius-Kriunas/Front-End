@@ -1,0 +1,44 @@
+@media (max-width: 1440px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .navigation {
+        padding: 10px;
+
+        ul.flex {
+            text-align: center;
+            flex-wrap: wrap;
+            li {
+                width: 50%;
+                a {
+                    margin-left: 0;
+                    background-image: linear-gradient(137deg, #f995c2 0%, #e885ad 100%);
+                    color: white;
+                    padding: 10px;
+                    margin: 5px;
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .content p span {
+        display: inline;
+    }
+
+
+    main.content .container.flex {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .navigation ul.flex li { width: 100%; }
+}

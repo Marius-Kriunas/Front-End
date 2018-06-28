@@ -1,0 +1,31 @@
+.navigation {
+    padding: 20px;
+    background-color: $color-primary;
+
+    ul {
+        &:first-child {
+            li { margin-right: 10px; }
+
+        }
+
+        &:last-child {
+            li { margin-left: 10px; }
+        }
+
+        li {
+            display: inline-block;
+            &.logo {
+                a {
+                    min-width: 150px;
+                    background-color: $color-secondary;
+                }
+            }
+            a {
+                background-color: $color-primary-lighter;
+                display: block;
+                padding: 5px 15px;
+                border-radius: 6px;
+            }
+        }
+    }
+}

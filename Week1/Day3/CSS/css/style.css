@@ -1,0 +1,50 @@
+/* GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: "Helvetica";
+}
+ul {
+    margin: 0; /* atitraukimai į elemento išorę, į visas puses */
+}
+a { /* globali taisyklė */
+    text-decoration: none; /* nuima pabraukimus */
+}
+/* END GLOBAL STYLES */
+#navigation { /* id selektorius, pažymi elementą */
+    /* height: 60px; */
+    background-color: grey;
+    text-align: center; /* centruoja tekstą */
+    /* savybė, kuri leidžia keisti fono spalvą */
+}
+#navigation li { /* pažymi #navigation li elementus */
+    padding: 10px; /* atitraukimai į elemento vidų, į visas puses*/
+    display: inline-block; /* priverčia elementa elgtis kaip blokiniu/tekstiniu */
+}
+
+#navigation a {
+  color: white;}
+ /* teksto spalva */
+}
+main {
+    /* background-color: blue; */
+    padding: 30px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* klasės selektorius */
+.blue {
+    background-color: blue;
+}
+.font-big {
+    font-size: 54px; /* šrifto dydį */
+    font-family: "Helvetica";
+}
+.green {
+  background-color: green;
+}

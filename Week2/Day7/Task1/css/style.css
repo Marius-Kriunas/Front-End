@@ -1,0 +1,41 @@
+body {font-family: 'Merriweather', serif;
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 50px;
+padding-bottom: 50px;
+line-height: 1.5;}
+a {text-decoration: none;
+color: purple;}
+
+a:hover {color: red}
+
+a:active {font-weight: bold;}
+h2 {font-size: 32px;
+    margin-top: 0;}
+
+h2+h3 {font-family: 'Open Sans', sans-serif;
+color: lightgrey;
+margin: 0px;}
+
+h4+p {background-color: lightgrey;
+font-size: 15px;
+padding: 30px;
+box-sizing: border-box;}
+
+article:nth-child(even) {background-color:black;
+padding: 30px;
+margin-top: 50px;
+margin-bottom: 50px;
+color: white;
+box-sizing: border-box;}
+
+article > a:last-child {
+    border: 1px solid lightgrey;
+    padding: 5px;}
+
+    img {
+        width: 200px;
+        float: left;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;}

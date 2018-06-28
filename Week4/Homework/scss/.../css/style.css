@@ -1,0 +1,11 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: .5px; }

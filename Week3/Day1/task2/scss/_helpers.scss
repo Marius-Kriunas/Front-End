@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+}
+
+.img-wrapper {
+    min-height: 200px;
+    background-color: $color-secondary;
+    border-radius: 6px;
+}
+
+.space-between {
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.navigation {
+  text-align: right;
+  padding: 20px; }
+
+li {
+  display: inline-block; }
+
+ul
+li {
+  margin-right: 10px; }
+
+a {
+  display: block;
+  padding: 5px 15px;
+  border-radius: 6px; }

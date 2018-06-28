@@ -1,0 +1,20 @@
+.navigation {
+    padding: 40px;
+    background-color: $color-secondary;
+    width: 30%;
+
+    .logo {
+        background-color: $color-primary;
+        height: 100px;
+        width: 100%;
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    ul {
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}

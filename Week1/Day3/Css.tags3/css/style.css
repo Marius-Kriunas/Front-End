@@ -1,0 +1,80 @@
+/* GLOBAL STYLES */
+
+section {
+    padding: 5px 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* END OF GLOBAL STYLES */
+
+.navigation {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+.about {
+    background-color: green;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.intro {
+    text-align: center;
+    padding: 100px;
+}
+
+section.services {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+section.services ul {
+    list-style: none;
+}
+
+section.services div {
+    padding: 15px;
+}
+
+.service-cleaning {
+    background-color: red;
+    width: 30%;
+}
+
+.service-maintenance {
+    background-color: brown;
+    width: 40%;
+}
+
+.service-fixing {
+    background-color: blue;
+    width: 30%;
+}

@@ -1,0 +1,38 @@
+.content {
+
+
+    h1 {
+        margin-bottom: 1.1em;
+    }
+
+    p {
+        margin-bottom: 3em;
+        span {
+            display: block;
+        }
+    }
+
+    .left {
+        width: 50%;
+    }
+
+    .right {
+        width: 50%;
+        padding-top: 2em;
+
+        @media (max-width: 1440px) {
+            img {
+                // max-width: 50%;
+                // display: block;
+                // margin: 0 auto;
+            }
+        }
+
+    }
+
+    @media (max-width: 1440px) {
+        .left, .right {
+            width: 100%;
+        }
+    }
+}

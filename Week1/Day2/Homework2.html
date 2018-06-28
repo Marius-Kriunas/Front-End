@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homework day2</title>
+    <p>Simple table</p>
+    <style media="screen">
+    table, tr, td {border: 1px solid #000; }
+    </style>
+  </head>
+  <body>
+    <table>
+
+      <tr>
+        <td><strong>#</strong></th>
+        <td><strong>Amount</strong></td>
+        <td><strong>Client</strong></td>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>250$</td>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1,300$</td>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>4,300$</td>
+        <td>Dennis</td>
+      </tr>
+    </table>
+    <hr>
+
+      <p>Table with colspan attributes</p>
+<table>
+      <tr>
+    <td colspan="2"align="center" ><strong>The table header</strong</td>
+  </tr>
+
+  <tr>
+    <td>The table body</td>
+    <td>with two columns</td>
+  </tr>
+  <tr>
+    <td colspan="2">The table footer</td>
+    </tr>
+    </table>
+    <hr>
+
+    <p>Table with thead, tbody, and tfoot.</p>
+    <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Countries</th>
+          <th>Capitals</th>
+          <th>Population</th>
+          <th>Language</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Lithuania</td>
+          <td>Vilnius</td>
+          <td>2.5 milion</td>
+          <td>Lithuanian</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>USA</td>
+          <td>Wachington, D.C.</td>
+          <td>309 milion</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sweden</td>
+          <td>Stockholm</td>
+          <td>9 milion</td>
+          <td>Swedish</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">Footer</td>
+          </tr>
+        </tfoot>
+      </table>
+      <hr>
+<p>Simple Post form</p>
+<form method="POST">
+  <label for="name">Name: </label>
+  <input type="text" id="Name" name="Name">
+  <br>
+  <br>
+  <label for="email">E-mail: </label>
+  <input type="email" id="email" name="email" value="">
+  <br>
+  <br>
+<label for="message">Message:</label>
+<textarea id="message"name="name"rows="2" cols="20"></textarea>
+<br>
+<br>
+<button type="submit" name="button">Send your message</button>
+</form>
+<hr>
+<p>POST form with select box, checkboxesand radio buttons.</p>
+<label for="Car name">Car name:</label>
+<select id="Car name" name="Car name">
+  <option value="Volvo">Volvo</option>
+  <option value="Ford" selected>Ford</option>
+</select>
+<br>
+<br>
+<label for="Gender">Gender</label>
+<input type="radio" name="Gender" value="male">male
+<input type="radio" name="Gender" value="male">female
+<input type="radio" name="Gender" value="male">other
+<br>
+<label>Comfort</label>
+<input type="checkbox" name="Heating" value="yes">Heating
+<input type="checkbox" name="Cooling" value="yes">Cooling
+<input type="checkbox" name="Cruise" value="yes">Cruise
+<br>
+<button type="submit" name="button">Send your message</button>
+</form>
+
+
+
+</body>
+
+</html>

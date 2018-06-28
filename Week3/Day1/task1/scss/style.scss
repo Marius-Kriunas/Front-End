@@ -1,0 +1,12 @@
+$color-primary: #175269;
+$color-primary-lighter: #256176;
+$color-secondary: #ced4d6;
+$color-secondary-lighter: #ececec;
+
+@import '_global';
+@import '_helpers';
+@import '_navigation';
+@import '_section';
+@import '_articles';
+@import '_aside';
+@import '_footer';

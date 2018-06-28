@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML (Day 2) - Tables/Forms</title>
+        <!-- lentelės stiliai -->
+        <!-- uždedame stilius table, tr ir td-->
+        <style media="screen">
+            table, tr, td { border: 1px solid #000; }
+        </style>
+    </head>
+    <body>
+        <table>
+            <!-- <tr> table row - lentelės eilutė -->
+            <tr>
+                <!-- <td> table data - lentelės stulpelis/duomenys -->
+                <td>1</td>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </table>
+        <table>
+            <!-- table head - lentelės antraštė,
+                paaiškinimai apie stulpelis -->
+            <thead>
+                <tr>
+                    <!-- table head - lentelės antraštė -->
+                    <th>#</th>
+                    <th>Suma</th>
+                    <th>Klientas</th>
+                </tr>
+            </thead>
+            <!-- table body - lentelės "kūnas" pagrindiniai duomenys -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>200$</td>
+                    <td>Viktoras</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>400$</td>
+                    <td>Viktoras</td>
+                </tr>
+            </tbody>
+            <!-- table foot - lentelės apatinė dalis -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Viso 2 klientai, pilna suma 600$</td>
+                </tr>
+            </tfoot>
+        </table>
+
+<!-- action-nuoroda kur nukeliaus formos duomenys-->
+<!-- method- pasakom, kokiu busu siusim duomenis:-->
+<!-- jei action atributo nera, duomenys nukeliaus i ta pati puslapi-->
+<!-- 1. GET - yra matomi duomenys, viesi-->
+<!--2.Post - paslepti duomenys-->
+        <form action="http://google.com" method="POST">
+          <!-- for - susieja "label" su "input" pagal jo id-->
+          <label for="vardas">Vardas: </label>
+          <!--placeholder input - paaiskinimas vartotojui-->
+          <input type="text" id="vardas" name="vardas" placeholder="Iveskite varda">
+          <br>
+          <!-- br - breakpoint - permeta i kita eilute-->
+          <label for="email">E-mail: </label>
+          <input type="email" id="email" name="email" value="">
+          <br>
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <!-- value - keliauja i PHP/duomenu baze-->
+            <option value="female">Female</option>
+            <!-- selected - pazymi pasirinkima-->
+            <option value="male" selected>Male</option>
+
+              </select>
+              <br>
+              <label for="message">Message</label>
+              <!-- textarea skirtas ilgesniam tekstui-->
+              <!-- rows - nusako auksti-->
+              <!-- cols - nusako ploti-->
+              <textarea id="message" name="name" rows="2" cols="20"></textarea>
+              <br>
+              <label for="nat">Nationality</label>
+              <!-- name-susieja radio mygtukus-->
+              <input type="radio" name="nat" value="lt">Lithuanian
+              <input type="radio" name="nat" value="En">English
+              <input type="radio" name="nat" value="ru">Russian
+              <br>
+              <label>Services</label>
+              <!-- checkbox - galima keleta atsakymu suzymeti-->
+              <input type="checkbox" name="Design" value="yes">Web Design
+              <input type="checkbox" name="development" value="yes">Web development
+              <input type="checkbox" name="SEO" value="yes">SEO
+              <br>
+              <input type="password" name="password">
+              <br>
+              <a href="current.html">Cancel</a>
+<!-- 1. Pirmas variantas isisuntimo mygtuko-->
+<!-- type privalo buti "submit"-->
+              <button type="submit" name="button">Issiusti</button>
+              <!--2. Antras variantas isisuntimo mygtuko-->
+              <input type="submit" name="button" value="Issiusti">
+            </form>
+
+    </body>
+</html>

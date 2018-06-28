@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.4;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: grey;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.button-xl {
+    padding: 20px 40px;
+    font-size: 32px;
+}
+
+.button-red {
+    background-color: red;
+}
+
+.button-black {
+    background-color: black;
+}
+/*  NAVIGATION ELEMENT */
+
+#navigation {
+    background: #eeeeee;
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    padding: 20px;
+    display: flex;
+    align-items: space-between;
+}
+
+#navigation li {
+    display: inline-block;
+}
+
+#navigation a {
+    width: 50px;
+    height: 20px;
+    display: block;
+    background-color: black;
+}
+
+#navigation .menu a:first-child {
+    margin-left: 0;
+}
+
+#navigation .menu a {
+    margin: 0 15px;
+}
+
+#navigation .menu {
+    margin-right: auto;
+}
+
+ .logo {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+header.navigation-white {
+    background-color: white !important;
+    border-bottom: 1px solid lightgrey;
+}
+
+header.navigation-white .logo {
+    background-color: lightgrey !important;
+}
+
+/* END OF NAVIGATION */
+
+section.intro {
+    display: flex;
+}
+
+section.intro .text, section.intro .images {
+    width: 50%;
+}
+
+section.intro .text {
+    padding-right: 20px;
+}
+
+section.intro .images {
+    display: flex;
+}
+
+section.intro .images .content {
+    background-color: grey;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+}
+
+section.intro .images .content:last-child {
+    margin-right: 0;
+}
+
+section.intro .images .content p {
+    margin-top: 0;
+}
+
+section.intro .images .content a {
+    color: white;
+}
+
+section.articles {
+    display: flex;
+    border-top: 1px solid lightgrey;
+}
+
+section.articles article {
+    padding: 10px;
+}
+
+section.articles article:first-child {
+    padding-left: 0;
+}
+
+section.articles article:last-child {
+    padding-right: 0;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+}
+
+#footer p {
+    margin-right: auto;
+}
+
+#footer .social li {
+    display: inline-block;
+}
+
+#footer .social a {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    display: block;
+    margin-left: 5px;
+}
+
+#footer ul {
+    padding: 13px 0;
+}

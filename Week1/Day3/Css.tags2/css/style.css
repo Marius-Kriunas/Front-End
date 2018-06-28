@@ -1,0 +1,49 @@
+.navigation {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+main {
+    display: flex;
+}
+
+nav.left, aside.right {
+    width: 20%;
+    padding: 5px 10px;
+}
+
+nav.left {
+    background-color: green;
+}
+
+nav.left li {
+    padding: 5px 0;
+}
+
+article.center {
+    width: 60%;
+    background-color: blue;
+    padding: 5px 20px;
+}
+
+aside.right {
+    background-color: green;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
